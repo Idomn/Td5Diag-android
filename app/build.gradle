@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.mooo.hairyone.td5tester"
+
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
     defaultConfig {
@@ -54,3 +56,7 @@ dependencies {
     /* Gauge library */
     implementation 'com.github.aloike.libgauge:LibGauge:0.0.5'
 }
+
+
+
+

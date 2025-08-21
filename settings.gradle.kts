@@ -6,15 +6,12 @@ pluginManagement {
     }
 }
 
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        // בטל הערה אם צריך JitPack:
-        maven { url "https://jitpack.io" }
+        // maven(url = "https://jitpack.io") // optional
     }
 }
-
-rootProject.name = "Td5Diag-android"
-include ':app'
