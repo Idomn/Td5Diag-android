@@ -5,7 +5,7 @@ buildscript {
     }
     dependencies {        // classpath "com.google.gms:google-services:4.4.2"        // בטל הערה אם צריך
         // classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.24"  // בטל הערה אם צריך Kotlin
-        classpath "com.android.tools.build:gradle:8.5.2"
+        classpath 'com.android.tools.build:gradle:8.11.1'
 
         // classpaths יוזרקו בהמשך
     }
